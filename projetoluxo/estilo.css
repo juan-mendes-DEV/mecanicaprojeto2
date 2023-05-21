@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: rgb(37, 37, 37);
+    color:#B8860B;
+    font-family: 'Secular One', sans-serif;
+    overflow-x: hidden;
+}
+
+h1{
+    color: #B8860B;
+}
+.cabecalho{
+    background-image:linear-gradient( black, #B8860B);
+    font-family: 'Secular One', sans-serif;
+    width: 1350px;
+    padding: 25px 8px;
+    justify-content: space-between;
+}
+.cabecalho ul{
+    position: absolute;
+    right: 100px;
+    top: 35px;
+}
+.cabecalho li{
+    display: inline;
+    margin: 5px;
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+}
+.cabecalho a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
+.cabecalho a:hover{
+    color: deepskyblue;
+}
+.sobre img{
+    position: absolute;
+    height: 280px;
+    left: 150px;
+    bottom: 200px;
+
+}
+.textos h2{
+    position: absolute;
+    right: 630px;
+    top: 200px;
+    padding: 0px 50px 0px 120px; 
+}
+.textos p{
+    position: absolute;
+    width: 700px;
+    right: 200px;
+    top: 245px;
+    padding: 0px 50px 0px 120px; 
+}
+.contato{
+    position: absolute;
+    top: 500px;
+    left:120px;
+    height: 400px;
+}
+.contato h2{
+    padding: 12px;
+}
+.contato form input, form textarea, form button{
+    font-family: inherit;
+    padding: 9px;
+    width: 200px;
+    margin-bottom: 8px;
+    border:none;
+    border-radius: 20px;
+    transition: 0.4s;
+
+}
+.contato input:focus, textarea:focus{
+    outline-color: darkgoldenrod;
+}
+.contato form textarea{
+    height: 170px;
+    resize: unset;
+}
+.contato form button{
+    width: 200px;
+    background-color: aliceblue;
+    color: black;
+    transition: 0.4s;
+}
+.contato form button:hover{
+    background-color: #B8860B;
+    color: aliceblue;
+}
+.sociallinks img{
+    width: 40px;
+}
+.sociallinks li{
+    position: relative;
+    display: inline;
+    top: 425px;
+    left: 600px;
+    margin: 10px;
+}
+.sociallinks h2{
+    position: relative;
+    top: 420px;
+    left: 600px;
+    margin: 10px;
+}
+.endereco{
+    position: relative;
+    top: 320px;
+    left: 900px;
+    margin: 10px;
+}
+.rodape{
+    position: absolute;
+    background-image: linear-gradient( #B8860B, black);
+    top: 1000px;
+    left:0px;
+    width: 1350px;
+    padding: 25px;
+    
+}
+.rodape p{
+    position: relative;
+    left: 400px;
+    color: aliceblue;
+    font-size: 20px;
+}
